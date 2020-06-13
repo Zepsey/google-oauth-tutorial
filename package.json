@@ -1,0 +1,19 @@
+{
+  "name": "google-auth-tut",
+  "version": "1.0.0",
+  "description": "Tutorial for Google Auth 2.0 with Passport.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index,js"
+  },
+  "author": "Giuseppe Picciano",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
